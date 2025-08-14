@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievers Educare Academy</title>
+    <meta name="description" content="Where Excellence Becomes Your Standard!">
+    <meta name="author" content="Achievers Educare Academy">
+    
+    <meta property="og:title" content="Achievers Educare Academy - Pass JAMB in One Sitting!">
+    <meta property="og:description" content="Expert JAMB tutorial center with proven results. Pass JAMB in one sitting with our expert tutors and verified past questions.">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="AEA.PNG.jpg" type="image/jpeg">
+    <link rel="icon" href="public/lovable-uploads/f8264321-6364-4691-bf92-59d3977c46b2.png" type="image/png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="AEA.PNG.jpg" alt="Achievers Educare Academy Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1 class="logo-title">Achievers Educare Academy</h1>
+                        <p class="logo-subtitle">Where Excellence Becomes Your Standard!</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <button onclick="scrollToSection('home')" class="nav-link">Home</button>
+                    <button onclick="scrollToSection('about')" class="nav-link">About</button>
+                    <button onclick="scrollToSection('courses')" class="nav-link">Courses</button>
+                    <button onclick="scrollToSection('contact')" class="nav-link">Contact</button>
+                </nav>
+
+                <div class="header-actions">
+                    <button id="theme-toggle" class="icon-btn">
+                        <svg id="sun-icon" class="icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg id="moon-icon" class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+
+                    <button id="mobile-menu-toggle" class="icon-btn mobile-only">
+                        <svg id="menu-icon" class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                        <svg id="close-icon" class="icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav id="mobile-nav" class="mobile-nav hidden">
+                <div class="mobile-nav-content">
+                    <button onclick="scrollToSection('home')" class="mobile-nav-link">Home</button>
+                    <button onclick="scrollToSection('about')" class="mobile-nav-link">About</button>
+                    <button onclick="scrollToSection('courses')" class="mobile-nav-link">Courses</button>
+                    <button onclick="scrollToSection('contact')" class="mobile-nav-link">Contact</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Achieve Academic Excellence in <span class="text-accent">LOCAL & INTERNATIONAL</span> Examinations
+                </h1>
+                <p class="hero-subtitle">
+                    Expert Tutors, Verified Past Questions, Proven Results!
+                </p>
+                <p class="hero-description">
+                    <!-- Join thousands of successful students who achieved their JAMB goals with our comprehensive tutorial program and proven teaching methods. -->
+                </p>
+                
+                <div class="hero-actions">
+                    <!-- Updated Enroll Now button to open Google Form -->
+                    <button onclick="openEnrollmentForm()" class="btn btn-primary btn-lg">
+                        Enroll Now
+                    </button>
+                    <a href="https://api.whatsapp.com/send?phone=2348071342141&text=Hello%20Achiever%2C%20I%20am%20_____%20I%20got%20your%20contact%20from%20_______%20and%20I%20want%20to%20enquire%20about%20______" 
+                       target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <span>Chat on WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-title">Why Choose Achievers Educare Academy?</h2>
+                    <p class="section-subtitle">
+                        We are committed to your academic success with proven methodologies and expert guidance
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3 class="about-heading">Our Mission</h3>
+                        <p class="about-paragraph">
+                            At Achievers Educare Academy, our mission is to equip students with the academic excellence, practical strategies, and confidence they need to excel in both local and international standardized examinations. Whether preparing for UTME, WAEC, NECO, IELTS, TOEFL, SAT, GMAT, or other global assessments, we are committed to providing comprehensive, high-quality instruction through innovative teaching, personalized guidance, and a supportive learning environment.
+                        </p>
+                                                                      
+                        <h4 class="mission-heading">Our Vision</h4>
+                        <p class="about-paragraph">
+                            Our vision is to become the premier hub for academic and exam preparation in Lagos and a trusted name across Nigeria and beyond. We aim to set the standard for excellence in both national and international test preparation by continuously evolving with global education trends, investing in expert tutors, and leveraging modern learning tools. Through our commitment to student success, we envision a future where every learner at Achievers Educare Academy becomes a confident, capable, and impactful achiever in any part of the world.
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card stat-green">
+                            <h4 class="stat-number">7+ Years</h4>
+                            <p class="stat-label">Experience and Excellence</p>
+                        </div>
+                        <div class="stat-card stat-blue">
+                            <h4 class="stat-number">5000+</h4>
+                            <p class="stat-label">Successful Students</p>
+                        </div>
+                        <div class="stat-card stat-purple">
+                            <h4 class="stat-number">99%</h4>
+                            <p class="stat-label">Success Rate</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonials Section -->
+                <div class="testimonials-section">
+                    <h3 class="testimonials-title">Success Stories</h3>
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <svg class="quote-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                            </svg>
+                            <p class="testimonial-text">"Thanks to Achievers Educare Academy, I scored 8.5 in IELTS and got admission to University of my choice! The instructors are exceptional!"</p>
+                            <div class="testimonial-author">
+                                <p class="author-name">Adaora Okafor</p>
+                                <p class="author-course">IELTS Student</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <svg class="quote-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                            </svg>
+                            <p class="testimonial-text">"The Mock practice sessions helped me get familiar with the exam format. Highly recommended!"</p>
+                            <div class="testimonial-author">
+                                <p class="author-name">Adebayo Temitope</p>
+                                <p class="author-course">WAEC Student</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <svg class="quote-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                            </svg>
+                            <p class="testimonial-text">"I scored 340+ in JAMB after struggling for years. The personalized attention and study materials made all the difference."</p>
+                            <div class="testimonial-author">
+                                <p class="author-name">Emeka Nwankwo</p>
+                                <p class="author-course">JAMB Student</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <svg class="quote-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                            </svg>
+                            <p class="testimonial-text">"The GRE preparation was thorough and well-structured. I achieved my target score and got into my dream graduate program."</p>
+                            <div class="testimonial-author">
+                                <p class="author-name">Hazzan Abdullahi</p>
+                                <p class="author-course">GRE Student</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Added JAMB success achievement section -->
+                    <div class="jamb-achievement">
+                        <div class="achievement-content">
+                            <img src="achievement-image.jpg" class="achievement-image">
+                            <h2 class="achievement-title">This year, we produced the overall best JAMB candidate with the highest score ever recorded, proof that with the right support, anything is possible.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updated Subjects Section to Courses Section -->
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-title">Our Courses</h2>
+                    <p class="section-subtitle">
+                        Comprehensive tutorial coverage for all examination types with expert guidance and proven teaching methods.
+                    </p>
+                </div>
+
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-header">
+                            <svg class="course-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                            <div class="course-info">
+                                <h3 class="course-name">International Exams</h3>
+                                <span class="premium-badge">Premium</span>
+                            </div>
+                        </div>
+                        <p class="course-description">Prepare for IELTS, TOEFL, GRE, GMAT, SAT and other international standardized tests with expert guidance.</p>
+                        <button onclick="window.location.href='courses.html'" class="learn-more-btn">Learn More</button>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-header">
+                            <svg class="course-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                            <div class="course-info">
+                                <h3 class="course-name">WAEC, NECO GCE</h3>
+                                <span class="popular-badge">Popular</span>
+                            </div>
+                        </div>
+                        <p class="course-description">Master O'Level examinations with comprehensive coverage of all subjects and practical exam strategies.</p>
+                        <button onclick="window.location.href='courses.html'" class="learn-more-btn">Learn More</button>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-header">
+                            <svg class="course-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            <div class="course-info">
+                                <h3 class="course-name">UTME</h3>
+                                <span class="required-badge">Essential</span>
+                            </div>
+                        </div>
+                        <p class="course-description">Comprehensive JAMB UTME preparation with CBT practice, past questions, and proven success strategies.</p>
+                        <button onclick="window.location.href='courses.html'" class="learn-more-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="benefits-section">
+                    <h3 class="benefits-title">Why Choose Our Tutorial Program?</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <svg class="benefit-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            </svg>
+                            <h4 class="benefit-title">Expert Tutoring</h4>
+                            <p class="benefit-description">Learn from experienced teachers with proven Local and International Examination success records.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <svg class="benefit-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14,2 14,8 20,8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10,9 9,9 8,9"></polyline>
+                            </svg>
+                            <h4 class="benefit-title">Study Materials</h4>
+                            <p class="benefit-description">Access to comprehensive study materials, practice tests, and digital resources for effective learning.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <svg class="benefit-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22,4 12,14.01 9,11.01"></polyline>
+                            </svg>
+                            <h4 class="benefit-title">Progress Tracking</h4>
+                            <p class="benefit-description">Regular assessments and progress reports to monitor improvement and adjust learning strategies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Added image before Physical Classes Section -->
+    <section class="classes-showcase-before">
+        <div class="container">
+            <div class="showcase-image">
+                <img src="Student studying W PC.jpg" alt="Our Learning Environment" class="showcase-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Physical Classes Section -->
+    <section id="physical-classes" class="physical-section">
+        <div class="container">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-title">Physical Classes & CBT Practice</h2>
+                    <p class="section-subtitle">
+                        Experience hands-on learning with our state-of-the-art facilities and computer-based test preparation.
+                    </p>
+                </div>
+
+                <div class="physical-grid">
+                    <div class="physical-card">
+                        <div class="physical-icon">
+                            <svg class="icon-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="physical-title">Physical & Online Tutorial Classes</h3>
+                        <p class="physical-description">
+                            Join our interactive classroom sessions with experienced tutors, both Physical and Online Classes.
+                        </p>
+                        <div class="physical-details">
+                            <div class="detail-item">
+                                <svg class="detail-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <span><strong>Ago-Palace/Amuwo Center:</strong> Lakeview Phase1, Ago-Amuwo Odofin, Lagos.<br>
+
+                                <strong>Mazamaza Center:</strong> 16, Old Ojo Road, Mazamaza Lagos.<br>
+
+                                <strong>Abule-Ado/Satelite Center:</strong> Opposite Archangel Catholic Church, #1 Mission Street, Satelite Town, Lagos.
+                                </span>
+                            </div>
+                            <div class="detail-item">
+                                <svg class="detail-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12,6 12,12 16,14"></polyline>
+                                </svg>
+                                <span><strong>Schedule:</strong> Monday - Saturday (8AM - 4PM)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="physical-card">
+                        <div class="physical-icon">
+                            <svg class="icon-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h3 class="physical-title">CBT Practice Portal</h3>
+                        <p class="physical-description">
+                            Practice with our computer-based testing system that simulates the actual CBT environment for better exam preparation.
+                        </p>
+                        <div class="physical-features">
+                            <div class="feature-item">
+                                <svg class="feature-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"></polyline>
+                                </svg>
+                                <span>Real-time performance analytics</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12,6 12,12 16,14"></polyline>
+                                </svg>
+                                <span>Timed practice sessions</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 11l3 3 8-8"></path>
+                                </svg>
+                                <span>Instant result feedback</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                                <span>Comprehensive question bank</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Added image after Physical Classes Section -->
+    <section class="classes-showcase-after">
+        <div class="container">
+            <div class="showcase-image">
+                <img src="CBT Practice Environment.jpg" alt="CBT Practice Environment" class="showcase-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-title">Contact & Enrollment</h2>
+                    <p class="section-subtitle">
+                        Ready to start your JAMB success journey? Get in touch with us today!
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3 class="contact-info-title">Get In Touch</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <div class="contact-text">
+                                    <p class="contact-label">Addresses</p>
+                                    <p class="contact-value">Ago-Palace/Amuwo ICAN Center; Lakeview Phase1, Ago-Amuwo, Lagos. <br>
+                                    Mazamaza Center: 16, Old Ojo Road, Mazamaza Lagos.<br>
+                                    Abule-Ado/Satelite Center: Opposite Archangel Catholic Church, #1 Mission Street, Satelite Town, Lagos.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                <div class="contact-text">
+                                    <p class="contact-label">Phone</p>
+                                    <p class="contact-value">+234 807 134 2141</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                <div class="contact-text">
+                                    <p class="contact-label">Email</p>
+                                    <p class="contact-value">achieverseducaretutors@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="whatsapp-section">
+                            <a href="https://api.whatsapp.com/send?phone=2348071342141&text=Hello%20Achiever%2C%20I%20am%20_____%20I%20got%20your%20contact%20from%20_______%20and%20I%20want%20to%20enquire%20about%20______" 
+                               target="_blank" rel="noopener noreferrer" class="whatsapp-btn">
+                                <svg class="whatsapp-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                                Chat on WhatsApp
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-section">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject Interest</label>
+                                <select id="subject" name="subject" class="form-select" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="international">International Exams</option>
+                                    <option value="waec-neco">WAEC, NECO GCE</option>
+                                    <option value="utme">UTME</option>
+                                    <option value="multiple">Multiple Courses</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" rows="4" class="form-textarea" placeholder="Tell us about your academic goals and how we can help you..."></textarea>
+                            </div>
+                            <button type="submit" class="form-submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <img src="AEA.PNG.jpg" 
+                                 alt="Achievers Educare Academy Logo" class="footer-logo-img">
+                            <div class="footer-logo-text">
+                                <h3 class="footer-title">Achievers Educare Academy</h3>
+                                <p class="footer-subtitle">Pass JAMB in One Sitting!</p>
+                            </div>
+                        </div>
+                        <p class="footer-description">
+                            At Achievers Educare Academy, we believe in the power of education to unlock potentials, inspire creativity and shape leaders of tomorrow.
+                        </p>
+                    </div>
+
+                    <div class="footer-links">
+                        <!-- Added social media icons before quick links -->
+                        <div class="footer-section">
+                            <h4 class="footer-section-title">Follow Us</h4>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/share/177dsHvQp7/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="social-link">
+                                    <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                    </svg>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="https://www.instagram.com/achieverseducareacademy?igsh=aHZoOXVxZGRzeGxt&utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-link">
+                                    <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987 6.62 0 11.987-5.367 11.987-11.987C24.014 5.367 18.637.001 12.017.001zM8.449 16.988c-1.297 0-2.448-.49-3.323-1.297C4.198 14.895 3.708 13.744 3.708 12.447s.49-2.448 1.418-3.323C6.001 8.198 7.152 7.708 8.449 7.708s2.448.49 3.323 1.416c.875.926 1.365 2.077 1.365 3.374s-.49 2.448-1.365 3.323c-.875.875-2.026 1.167-3.323 1.167zm7.718 0c-1.297 0-2.448-.49-3.323-1.297-.875-.926-1.365-2.077-1.365-3.374s.49-2.448 1.365-3.323c.875-.926 2.026-1.416 3.323-1.416s2.448.49 3.323 1.416c.875.926 1.365 2.077 1.365 3.374s-.49 2.448-1.365 3.323c-.875.875-2.026 1.167-3.323 1.167z"/>
+                                    </svg>
+                                    <span>Instagram</span>
+                                </a>
+                                <a href="http://www.tiktok.com/@achieverseducareacademy" target="_blank" rel="noopener noreferrer" class="social-link">
+                                    <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                                    </svg>
+                                    <span>TikTok</span>
+                                </a>
+                                <a href="https://x.com/achieverseducar?s=21" target="_blank" rel="noopener noreferrer" class="social-link">
+                                    <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                                    </svg>
+                                    <span>Twitter (X)</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="footer-section">
+                            <h4 class="footer-section-title">Quick Links</h4>
+                            <div class="footer-nav">
+                                <button onclick="scrollToSection('home')" class="footer-link">Home</button>
+                                <button onclick="scrollToSection('about')" class="footer-link">About Us</button>
+                                <button onclick="scrollToSection('courses')" class="footer-link">Courses</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p class="footer-copyright">
+                        &copy; Achievers Educare Academy. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Added Google Form Modal -->
+    <div id="enrollment-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Student Registration</h3>
+                <button onclick="closeEnrollmentModal()" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <iframe id="enrollment-form" src="https://forms.gle/5zwiPMCyLv5ijiW8A" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+  
